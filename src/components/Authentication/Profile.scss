@@ -1,0 +1,20 @@
+.profileContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+    img{
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+    h2{
+        margin-top: 2rem;
+    }
+    h6{
+        margin-top: 3rem;
+        color: red;
+        font-size: 1.5rem;
+    }
+}
