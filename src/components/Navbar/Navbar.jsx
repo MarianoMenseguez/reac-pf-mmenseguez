@@ -28,10 +28,13 @@ export default function Navbar() {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/product/1">Catalogo</Link>
+            <Link to="/">Catalogo</Link>
           </li>
           <li>
-            <Link to="/">Precios</Link>
+            <Link to="/category/Musculosas">Musculosas</Link>
+          </li>
+          <li>
+            <Link to="/category/Shores">Shores</Link>
           </li>
           <li>
             <CartWidget />

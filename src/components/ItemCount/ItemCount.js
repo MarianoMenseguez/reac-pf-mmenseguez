@@ -14,14 +14,22 @@ const ItemCount = ({ stock = 0, initial = 0 }) => {
   }, [initial]);
 
   const increment = () => {
+		
     if (counter < stock) {
-      setCounter(counter + 1);
+		
+      setCounter(prev => prev + 1);
+		
     }
+		
   };
+		
   const decrease = () => {
+		
     if (counter > initial) {
-      setCounter(counter - 1);
-    }
+		
+      setCounter(prev => prev  - 1);
+		}
+		
   };
   return (
     <div className="addCartContainer">

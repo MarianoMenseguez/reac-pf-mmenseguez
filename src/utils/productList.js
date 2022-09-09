@@ -5,24 +5,27 @@ const products = [
     img: require("./imagenes/musculosaroja.png"),
     description:
       "Musculosa roja de algodon sin poliester en todos los talles",
-    productStock: 5,
-    price: 50000,
+    productStock: 12,
+    price: 2000,
+    category: "Musculosas",
   },
   {
     id: 2,
     title: "Short negro",
     img: require("./imagenes/short.png"),
     description: "Short negro de algodon sin poliester en todos los talles",
-    productStock: 6,
-    price: 18000,
+    productStock: 13,
+    price: 2000,
+    category: "Shores",
   },
   {
     id: 3,
     title: "Musculosa Negra",
     img: require("./imagenes/musculosanegra.png"),
     description: "Musculosa negra de algodon sin poliester en todos los talles",
-    productStock: 2,
-    price: 34000,
+    productStock: 15,
+    price: 2000,
+    category: "Musculosas",
   },
 ];
 
