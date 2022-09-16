@@ -30,14 +30,16 @@ export default function Navbar() {
           <li>
             <Link to="/">Catalogo</Link>
           </li>
-          <li>
-            <Link to="/category/Musculosas">Musculosas</Link>
+          <li onClick={showNavbar}>
+          <Link to="/category/Musculosas">Musculosas</Link>
           </li>
-          <li>
+          <li onClick={showNavbar}>
             <Link to="/category/Shores">Shores</Link>
           </li>
-          <li>
-            <CartWidget />
+          <li onClick={showNavbar}>
+            <Link to="/cart">
+              <CartWidget />
+            </Link>
           </li>
         </ul>
         <button className="closeIcon" onClick={showNavbar}>
